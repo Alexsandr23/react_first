@@ -22,7 +22,7 @@ const Header = () =>
 </header>
 
 const Link = ({name, url="#"}) => 
-  <li className="header-item"><a className="header-link" href={url}>Item {name}</a></li>
+  <li style={{cssText:"text-decoration: none;"}}><a className="header-link" href={url}>Item {name}</a></li>
 
 const Main = () => 
 <main className="main">

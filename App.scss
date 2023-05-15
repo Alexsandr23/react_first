@@ -1,3 +1,4 @@
+  $background-color: rgb(212, 212, 69);
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -13,7 +14,7 @@
 
 .header {
   height: 80px;
-  background-color: rgb(212, 212, 69);
+  background-color: $background-color;
   display: flex;
   justify-content: space-between;
   padding: 0 0.9375rem;
@@ -23,9 +24,6 @@
   font-size: 1.2rem;
   text-decoration: none;
   color: black;
-}
-.header-item {
-  text-decoration: none;
 }
 .heder-boxItem {
   width: 20rem;
